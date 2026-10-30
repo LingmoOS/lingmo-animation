@@ -1,0 +1,7 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: lingmo-animation
+Description: Animation primitives for the Lingmo desktop
+Version: @PROJECT_VERSION@
+Cflags: -I${includedir}

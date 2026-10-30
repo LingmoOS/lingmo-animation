@@ -1,0 +1,20 @@
+Source: lingmo-animation
+Section: libdevel
+Priority: optional
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Build-Depends: cmake,
+               debhelper-compat (= 13)
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
+Homepage: https://github.com/LingmoOS/lingmo-animation
+
+Package: lingmo-animation-dev
+Section: libdevel
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Animation primitives for the Lingmo desktop
+ A small header-only C++20 library of curves, tweens, smoothing, springs,
+ hops and timelines shared by the Lingmo desktop's animations. It has no
+ window or toolkit dependency: a driver steps the values with the time that
+ passed, so the same primitives run in the shell, the compositor and tests.

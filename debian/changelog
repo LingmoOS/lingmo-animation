@@ -1,0 +1,6 @@
+lingmo-animation (5.0.0+lingmo5u1) unstable; urgency=medium
+
+  * Initial release: curves, tween, smoothing, spring, hop, timeline and a
+    frame stepper for the Lingmo desktop's animations.
+
+ -- Lingmo OS Team <team@lingmo.org>  Fri, 30 Oct 2026 15:10:00 +0800
